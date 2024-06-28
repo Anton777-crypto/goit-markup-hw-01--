@@ -39,6 +39,9 @@ nav ul li a {
   color: black;
   text-decoration: none;
 }
+nav ul li a:hover {
+  background-color: #ccedf1;
+}
 
 address {
   display: flex;
@@ -60,7 +63,9 @@ address ul li a {
   color: black;
   text-decoration: none;
 }
-
+address ul li a:hover {
+  background-color: #d7f1ee;
+}
 .hero {
   background-color: #2e2f42;
 
@@ -115,6 +120,9 @@ address ul li a {
 }
 .hero button:hover {
   background-color: #8c4de5;
+}
+.hero button:focus {
+  color: #000;
 }
 .section_1 {
   display: flex;
@@ -269,4 +277,7 @@ address ul li a {
   top: 1016px;
   gap: 0px;
   opacity: 0px;
+}
+a {
+  text-decoration: none;
 }
